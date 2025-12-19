@@ -7,8 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     @GetMapping("/")
-    public String root()
-    {
+    public String root() {
         return "Root Folder, type /{author} for roles";
     }
 
@@ -16,14 +15,17 @@ public class HelloController {
     public String ani() {
         return "Model Layer";
     }
+
     @GetMapping("/sami")
     public String smi() {
         return "Service Layer";
     }
-    @GetMapping("/rahat") 
+
+    @GetMapping("/rahat")
     public String rht() {
         return "Controller Layer";
     }
+
     @GetMapping("/sayed")
     public String syd() {
         return "Leader, Postman Tester";
