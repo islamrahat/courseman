@@ -11,8 +11,8 @@ public class HelloController {
         return "Root Folder, type /{author} for roles";
     }
 
-    @GetMapping("/animesh")
-    public String ani() {
+    @GetMapping("/sayed")
+    public String syd() {
         return "Model Layer";
     }
 
@@ -26,8 +26,8 @@ public class HelloController {
         return "Controller Layer";
     }
 
-    @GetMapping("/sayed")
-    public String syd() {
+    @GetMapping("/animesh")
+    public String ani() {
         return "Leader, Postman Tester";
     }
 }
