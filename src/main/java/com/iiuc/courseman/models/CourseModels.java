@@ -1,6 +1,6 @@
 package com.iiuc.courseman.models;
 
-public class Course {
+public class CourseModels {
     private Long id;              // unique ID (manually handled)
     private String code;           // e.g., CSE-2340
     private String title;          // e.g., Software Development-1
@@ -11,11 +11,11 @@ public class Course {
     private String teacher;        // e.g., MAS
 
     // Default Constructor
-    public Course() {
+    public CourseModels() {
     }
 
     // Parameterized Constructor
-    public Course(Long id, String code, String title, double credit,
+    public CourseModels(Long id, String code, String title, double credit,
                   String type, String semester, Long departmentId, String teacher) {
         this.id = id;
         this.code = code;
