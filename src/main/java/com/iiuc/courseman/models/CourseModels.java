@@ -1,20 +1,18 @@
 package com.iiuc.courseman.models;
 
 public class CourseModels {
-    private Long id;               // unique ID (manually handled)
-    private String code;           // e.g., CSE-2340
-    private String title;          // e.g., Software Development-1
-    private double credit;         // e.g., 2.0
-    private String type;           // e.g., Lab / Theory
-    private String semester;       // e.g., Autumn 2025
-    private Long departmentId;     // relationship via ID
-    private String teacher;        // e.g., MAS
+    private Long id;
+    private String code;
+    private String title;
+    private double credit;
+    private String type;
+    private String semester;
+    private Long departmentId;
+    private String teacher;
 
-    // Default Constructor
     public CourseModels() {
     }
 
-    // Parameterized Constructor
     public CourseModels(Long id, String code, String title, double credit, String type, String semester, Long departmentId, String teacher) {
         this.id = id;
         this.code = code;
@@ -26,7 +24,6 @@ public class CourseModels {
         this.teacher = teacher;
     }
 
-    // Getters and Setters
     public Long getId() {
         return id;
     }
