@@ -15,8 +15,7 @@ public class CourseModels {
     }
 
     // Parameterized Constructor
-    public CourseModels(Long id, String code, String title, double credit,
-                  String type, String semester, Long departmentId, String teacher) {
+    public CourseModels(Long id, String code, String title, double credit, String type, String semester, Long departmentId, String teacher) {
         this.id = id;
         this.code = code;
         this.title = title;
