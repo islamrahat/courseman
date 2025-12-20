@@ -1,7 +1,7 @@
 package com.iiuc.courseman.models;
 
 public class CourseModels {
-    private Long id;              // unique ID (manually handled)
+    private Long id;               // unique ID (manually handled)
     private String code;           // e.g., CSE-2340
     private String title;          // e.g., Software Development-1
     private double credit;         // e.g., 2.0
