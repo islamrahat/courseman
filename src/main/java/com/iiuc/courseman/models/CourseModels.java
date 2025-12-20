@@ -1,6 +1,6 @@
 package com.iiuc.courseman.models;
 
-public class CourseModels {
+public class CourseModels{
     private Long id;
     private String code;
     private String title;
@@ -10,10 +10,10 @@ public class CourseModels {
     private Long departmentId;
     private String teacher;
 
-    public CourseModels() {
-    }
+    public CourseModels() {}
 
-    public CourseModels(Long id, String code, String title, double credit, String type, String semester, Long departmentId, String teacher) {
+    public CourseModels(Long id, String code, String title, double credit, String type, String semester, Long departmentId, String teacher)
+    {
         this.id = id;
         this.code = code;
         this.title = title;
@@ -24,27 +24,33 @@ public class CourseModels {
         this.teacher = teacher;
     }
 
-    public Long getId() {
+    public Long getId() 
+    {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Long id) 
+    {
         this.id = id;
     }
 
-    public String getCode() {
+    public String getCode() 
+    {
         return code;
     }
 
-    public void setCode(String code) {
+    public void setCode(String code) 
+    {
         this.code = code;
     }
 
-    public String getTitle() {
+    public String getTitle() 
+    {
         return title;
     }
 
-    public void setTitle(String title) {
+    public void setTitle(String title) 
+    {
         this.title = title;
     }
 
@@ -52,39 +58,48 @@ public class CourseModels {
         return credit;
     }
 
-    public void setCredit(double credit) {
+    public void setCredit(double credit) 
+    {
         this.credit = credit;
     }
 
-    public String getType() {
+    public String getType() 
+    {
         return type;
     }
 
-    public void setType(String type) {
+    public void setType(String type) 
+    {
         this.type = type;
     }
 
-    public String getSemester() {
+    public String getSemester() 
+    {
         return semester;
     }
 
-    public void setSemester(String semester) {
+    public void setSemester(String semester) 
+    {
         this.semester = semester;
     }
 
-    public Long getDepartmentId() {
+    public Long getDepartmentId() 
+    {
         return departmentId;
     }
 
-    public void setDepartmentId(Long departmentId) {
+    public void setDepartmentId(Long departmentId) 
+    {
         this.departmentId = departmentId;
     }
 
-    public String getTeacher() {
+    public String getTeacher() 
+    {
         return teacher;
     }
 
-    public void setTeacher(String teacher) {
+    public void setTeacher(String teacher) 
+    {
         this.teacher = teacher;
     }
     
