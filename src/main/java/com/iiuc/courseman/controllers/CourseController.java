@@ -12,7 +12,9 @@ public class CourseController {
     }
 
     @GetMapping("/sayed")
-    public String syd() {
+    public String syd()
+
+    {
         return "Model Layer";
     }
 
