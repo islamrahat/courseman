@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "code": "CSE-1121",
     "title": "Computer Programming I",
     "credit": 3.0,
@@ -10,7 +9,6 @@
     "teacher": "Jamil As-ad"
   },
   {
-    "id": 2,
     "code": "CSE-1221",
     "title": "Computer Programming II",
     "credit": 3.0,
@@ -20,7 +18,6 @@
     "teacher": "Md. Nazim Uddin"
   },
   {
-    "id": 3,
     "code": "CSE-2340",
     "title": "Software Development I",
     "credit": 2.0,
