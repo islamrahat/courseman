@@ -1,22 +1,32 @@
 [
   {
     "id": 1,
-    "code": "CSE-101",
-    "title": "Introduction to Computer Science",
+    "code": "CSE-1121",
+    "title": "Computer Programming I",
+    "credit": 3.0,
+    "type": "Core",
+    "semester": "Autumn 2024",
+    "departmentId": 10,
+    "teacher": "Jamil As-ad"
+  },
+  {
+    "id": 2,
+    "code": "CSE-1221",
+    "title": "Computer Programming II",
     "credit": 3.0,
     "type": "Core",
     "semester": "Spring 2025",
     "departmentId": 10,
-    "teacher": "Dr. Md. Rahman"
+    "teacher": "Md. Nazim Uddin"
   },
   {
-    "id": 2,
-    "code": "CSE-202",
-    "title": "Data Structures",
-    "credit": 3.0,
+    "id": 3,
+    "code": "CSE-2340",
+    "title": "Software Development I",
+    "credit": 2.0,
     "type": "Core",
-    "semester": "Fall 2025",
+    "semester": "Autumn 2025",
     "departmentId": 10,
-    "teacher": "Ms. Farzana Islam"
+    "teacher": "Mahir Shadid"
   }
 ]
