@@ -51,7 +51,7 @@ public class CourseController {
     @DeleteMapping("/{id}")
     public String delete(@PathVariable Long id)
     {
-        if(courseServices.deleteCourse(id) == true) {return "Deleted Succesfully";}
+        if(courseServices.deleteCourse(id) == true) {return "Deleted Succesfully!";}
         return "Course details not found.";
     }
 }

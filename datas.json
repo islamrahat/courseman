@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "code": "CSE-101",
+    "title": "Introduction to Computer Science",
+    "credit": 3.0,
+    "type": "Core",
+    "semester": "Spring 2025",
+    "departmentId": 10,
+    "teacher": "Dr. Md. Rahman"
+  },
+  {
+    "id": 2,
+    "code": "CSE-202",
+    "title": "Data Structures",
+    "credit": 3.0,
+    "type": "Core",
+    "semester": "Fall 2025",
+    "departmentId": 10,
+    "teacher": "Ms. Farzana Islam"
+  }
+]
