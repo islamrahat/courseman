@@ -1,0 +1,29 @@
+[
+  {
+    "code": "CSE-1121",
+    "title": "Computer Programming I",
+    "credit": 3.0,
+    "type": "Core",
+    "semester": "Autumn 2024",
+    "departmentId": 10,
+    "teacher": "Jamil As-ad"
+  },
+  {
+    "code": "CSE-1221",
+    "title": "Computer Programming II",
+    "credit": 3.0,
+    "type": "Core",
+    "semester": "Spring 2025",
+    "departmentId": 10,
+    "teacher": "Md. Nazim Uddin"
+  },
+  {
+    "code": "CSE-2340",
+    "title": "Software Development I",
+    "credit": 2.0,
+    "type": "Core",
+    "semester": "Autumn 2025",
+    "departmentId": 10,
+    "teacher": "Mahir Shadid"
+  }
+]
