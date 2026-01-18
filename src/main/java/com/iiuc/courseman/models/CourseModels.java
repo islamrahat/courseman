@@ -1,6 +1,6 @@
 package com.iiuc.courseman.models;
 
-public class CourseModels{
+public class CourseModels {
     private Long id;
     private String code;
     private String title;
